@@ -1,0 +1,7 @@
+Trade Date   Trans Type   Inv Name   Share Price   Shares   Amt Traded
+07/21/2012   Buy          Facebook   30            10       300
+05/09/2013   Buy          Facebook   50            10       500
+07/29/2013   Buy          Facebook   30            10       300
+08/19/2013   Buy          Facebook   50            20       1000
+07/19/2014   Sell         Facebook   75            25       1875
+07/25/2014   Sell         Facebook   75            20       1500
