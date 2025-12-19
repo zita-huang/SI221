@@ -1,0 +1,9 @@
+Placing the member function within the class:
+-creator has the opportunity to make it private, therefore unaccessible to the user
+-creator can make it public within the class
+-makes the member function to be inline
+
+Placing the member function into a .cpp file:
+-violates the principles of hiding information
+-can be used globally as long as the .cpp file is included in the main.cpp file
+-can hide how it is implemented if creator does not give access to .cpp file
