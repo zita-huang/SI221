@@ -1,0 +1,21 @@
+Name: Zita Huang
+Lab 04, Part 3
+
+1. Why do you think it was done that way?
+    grade.cpp was done in such a way that the pass by reference avoids copying and pasting.
+    By using pass by reference it allows for the control of hiding information. One of the ways
+    to get pass this is to create a copy constructor in order to create similar contents to grade.cpp,
+    otherwise it would have to only be implemented as grade.o. It also allows for the safe keeping of the heap
+    especially when it is being used for either implementation or as an interface. 
+
+2. Did it need to be done that way? And if not, what would you/someone need to change to do it another way?
+    It did not necessarily need to be implemented this way. The author could have made the grade.cpp
+    and grade.h using a copy constructor that would take in different inputs, while also ensuring that
+    the copy constructor would also be pointing to different nodes.
+
+3. What member functions would you want to be available to the user of such a class? What constructors? 
+   Would a destructor be needed? Would pass by value or assignment be a problem for this class?
+    When using a linked list a constructor and destructor would be needed for the class. There would be
+    member functions calling in the student names, getting the grades of each student, and getting the
+    average of each student in the class. The same issue from grades.cpp would apply to this class as well.
+    
