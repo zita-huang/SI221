@@ -1,0 +1,18 @@
+1. Are the elements in a map container ordered? If so, how?
+Yes the elements in a map container are ordered. They are ordered by using a key.
+This key is used to order the elements with the compare. Map uses a strict weak ordering.
+
+2. Is it possible for two elements in a map to have the same key?
+No, each key must be unique, cannot have the same key for two elements.
+
+
+3. Is it possible for two elements in a map to have the same value?
+Two elements in a map can have the same values as long as they have unique keys.
+
+
+4. By default, what comparison operator does the map class use?
+The compare operator takes in the whether or not a goes before b. 
+
+
+5. What member function of the map class would you call to find out the maximum number of elements a map container can hold as content?
+max_size
